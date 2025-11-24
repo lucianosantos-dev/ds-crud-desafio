@@ -2,6 +2,7 @@ package com.lucianodev.ds_crud_desafio.controllers;
 
 import com.lucianodev.ds_crud_desafio.dto.ClientDTO;
 import com.lucianodev.ds_crud_desafio.services.ClientService;
+import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -30,7 +31,7 @@ public class ClientController {
     }
 
     @PostMapping("/clients")
-    public ResponseEntity<ClientDTO> insert(@RequestBody ClientDTO clientDTO) {
+    public ResponseEntity<ClientDTO> insert(@Valid @RequestBody ClientDTO clientDTO) {
         clientDTO = service.insert(clientDTO);
         URI uri = ServletUriComponentsBuilder.fromCurrentRequest()
                 .path("/{id}").buildAndExpand(clientDTO.getId()).toUri();
@@ -38,7 +39,7 @@ public class ClientController {
     }
 
     @PutMapping("/clients/{id}")
-    public ResponseEntity<ClientDTO> update(@PathVariable Long id, @RequestBody ClientDTO dto) {
+    public ResponseEntity<ClientDTO> update(@PathVariable Long id, @Valid @RequestBody ClientDTO dto) {
         dto = service.update(id, dto);
         return ResponseEntity.ok(dto);
     }
