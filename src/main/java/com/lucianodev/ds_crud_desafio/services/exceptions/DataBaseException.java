@@ -1,0 +1,7 @@
+package com.lucianodev.ds_crud_desafio.services.exceptions;
+
+public class DataBaseException extends RuntimeException {
+    public DataBaseException(String msg) {
+        super(msg);
+    }
+}
