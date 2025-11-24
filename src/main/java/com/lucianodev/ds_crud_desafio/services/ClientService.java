@@ -29,11 +29,11 @@ public class ClientService {
     }
 
     @Transactional
-    public ClientDTO insert(ClientDTO dto, Client entity) {
-        Client client = new Client();
+    public ClientDTO insert(ClientDTO dto) {
+        Client entity = new Client();
         copyDTOToEntity(dto, entity);
-        client = repository.save(client);
-        return new ClientDTO(client);
+        entity = repository.save(entity);
+        return new ClientDTO(entity);
     }
 
     @Transactional
