@@ -8,7 +8,7 @@ Desafio era criar um pequeno Crud de Clientes e implementar as funcionalidades C
 ### Detalhes que foram Implementados
 Implementei um pequeno Seed(Script) com 10 clientes para testes.
 Implementei Exceções personalizadas para entregar uma melhor experiência em possíveis erros na API.
-Implementei Validações para os campos de Nome, e Data de Nascimento, não aceitando que os campos fosse nulos e definindo um número de caractere minima e maxima.
+Implementei Validações para os campos de Nome, e Data de Nascimento, não aceitando que os campos fossem nulos e definindo um número de caracteres mínimo e máxima.
 Implementei boas praticas e padrão de Projetos em Camadas.
 
 ### Funcionalidades
