@@ -2,7 +2,7 @@
 
 ### Desafio proposto pela DevSuperior
 
-Desenvolvi uma pequena Api Rest usando Java e Framework Spring
+Desenvolvi uma pequena Api Rest usando Java e Framework Spring.
 Desafio era criar um pequeno Crud de Clientes e implementar as funcionalidades CRUD (Criar, Ler, Atualizar, Excluir).
 
 ### Detalhes que foram Implementados
