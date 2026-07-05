@@ -1,5 +1,10 @@
 # Projeto CRUD de Clientes
 
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
+![Maven](https://img.shields.io/badge/maven-%23C71A36.svg?style=for-the-badge&logo=apachemaven&logoColor=white)
+![H2](https://img.shields.io/badge/H2%20Database-%23004E89.svg?style=for-the-badge&logo=databricks&logoColor=white)
+
 ### Desafio proposto pela DevSuperior
 
 Desenvolvi uma pequena Api Rest usando Java e Framework Spring.
