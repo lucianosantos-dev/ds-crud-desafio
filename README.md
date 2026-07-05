@@ -19,7 +19,7 @@ Implementei boas praticas e padrão de Projetos em Camadas.
 * Buscar Cliente por ID
 
 
-  ## Tecnologias Ultilizadas
+  ## Tecnologias Utilizadas
   * Java 21
   * POO
   * Spring Boot 3
